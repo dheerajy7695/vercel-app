@@ -11,6 +11,10 @@ app.get("/home", (req, res) => {
     res.send("Welcome to your home page!");
 });
 
+app.get("/development", (req, res) => {
+    res.send("Welcome to your development branch!");
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
