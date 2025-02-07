@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-    res.send("Welcome to your home page");
+    res.send("Welcome to your home page!");
 });
 
 app.listen(PORT, () => {
